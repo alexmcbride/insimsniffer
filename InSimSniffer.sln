@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSimSniffer", "InSimSniffer\InSimSniffer.csproj", "{B4EDF210-0734-4C9B-BB53-282D07533938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSimSniffer.Library", "InSimSniffer.Library\InSimSniffer.Library.csproj", "{F5684FBB-1CB1-4C2A-9792-CD97B9564A43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4EDF210-0734-4C9B-BB53-282D07533938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EDF210-0734-4C9B-BB53-282D07533938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EDF210-0734-4C9B-BB53-282D07533938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EDF210-0734-4C9B-BB53-282D07533938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5684FBB-1CB1-4C2A-9792-CD97B9564A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5684FBB-1CB1-4C2A-9792-CD97B9564A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5684FBB-1CB1-4C2A-9792-CD97B9564A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5684FBB-1CB1-4C2A-9792-CD97B9564A43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5684FBB-1CB1-4C2A-9792-CD97B9564A43}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InSimSniffer.Library</RootNamespace>
+    <AssemblyName>InSimSniffer.Library</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\InSimSniffer\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\..\InSimSniffer.Library\InSimSniffer.Library.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\InSimSniffer\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>InSimSniffer.Library.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CarHelper.cs" />
+    <Compile Include="InSimCloseEventArgs.cs" />
+    <Compile Include="InSimCloseReason.cs" />
+    <Compile Include="EncodingHelper.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="PacketEventArgs.cs" />
+    <Compile Include="PacketFactory.cs" />
+    <Compile Include="PacketHelper.cs" />
+    <Compile Include="Packets\CarContact.cs" />
+    <Compile Include="Packets\CarContOBJ.cs" />
+    <Compile Include="Packets\CompCar.cs" />
+    <Compile Include="Packets\IPacket.cs" />
+    <Compile Include="Packets\ISendable.cs" />
+    <Compile Include="Packets\IS_ACR.cs" />
+    <Compile Include="Packets\IS_AXI.cs" />
+    <Compile Include="Packets\IS_AXO.cs" />
+    <Compile Include="Packets\IS_BFN.cs" />
+    <Compile Include="Packets\IS_BTT.cs" />
+    <Compile Include="Packets\IS_CCH.cs" />
+    <Compile Include="Packets\IS_CNL.cs" />
+    <Compile Include="Packets\IS_CON.cs" />
+    <Compile Include="Packets\IS_CPP.cs" />
+    <Compile Include="Packets\IS_CPR.cs" />
+    <Compile Include="Packets\IS_CRS.cs" />
+    <Compile Include="Packets\IS_FIN.cs" />
+    <Compile Include="Packets\IS_FLG.cs" />
+    <Compile Include="Packets\IS_HLV.cs" />
+    <Compile Include="Packets\IS_III.cs" />
+    <Compile Include="Packets\IS_ISI.cs" />
+    <Compile Include="Packets\IS_ISM.cs" />
+    <Compile Include="Packets\IS_LAP.cs" />
+    <Compile Include="Packets\IS_MCI.cs" />
+    <Compile Include="Packets\IS_MSL.cs" />
+    <Compile Include="Packets\IS_MSO.cs" />
+    <Compile Include="Packets\IS_MSX.cs" />
+    <Compile Include="Packets\IS_NCN.cs" />
+    <Compile Include="Packets\IS_NLP.cs" />
+    <Compile Include="Packets\IS_NPL.cs" />
+    <Compile Include="Packets\IS_OBH.cs" />
+    <Compile Include="Packets\IS_PEN.cs" />
+    <Compile Include="Packets\IS_PFL.cs" />
+    <Compile Include="Packets\IS_PIT.cs" />
+    <Compile Include="Packets\IS_PLA.cs" />
+    <Compile Include="Packets\IS_PLL.cs" />
+    <Compile Include="Packets\IS_PLP.cs" />
+    <Compile Include="Packets\IS_PSF.cs" />
+    <Compile Include="Packets\IS_REO.cs" />
+    <Compile Include="Packets\IS_RES.cs" />
+    <Compile Include="Packets\IS_RIP.cs" />
+    <Compile Include="Packets\IS_RST.cs" />
+    <Compile Include="Packets\IS_SCC.cs" />
+    <Compile Include="Packets\IS_SMALL.cs" />
+    <Compile Include="Packets\IS_SPX.cs" />
+    <Compile Include="Packets\IS_SSH.cs" />
+    <Compile Include="Packets\IS_STA.cs" />
+    <Compile Include="Packets\IS_TINY.cs" />
+    <Compile Include="Packets\IS_TOC.cs" />
+    <Compile Include="Packets\IS_VER.cs" />
+    <Compile Include="Packets\IS_VTN.cs" />
+    <Compile Include="Packets\NodeLap.cs" />
+    <Compile Include="Packets\ObjectInfo.cs" />
+    <Compile Include="Packets\TinyType.cs" />
+    <Compile Include="PacketType.cs" />
+    <Compile Include="PacketTypeHelper.cs" />
+    <Compile Include="ReceiveCompletedEventArgs.cs" />
+    <Compile Include="SmallType.cs" />
+    <Compile Include="SniffedValue.cs" />
+    <Compile Include="SniffedPacket.cs" />
+    <Compile Include="SnifferClient.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SnifferService.cs" />
+    <Compile Include="SnifferSettings.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="StringResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TcpSocket.cs" />
+    <Compile Include="TcpSocket.SocketState.cs" />
+    <Compile Include="TrackHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StringResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InSimSniffer.Library.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Packets\IS_AXM.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

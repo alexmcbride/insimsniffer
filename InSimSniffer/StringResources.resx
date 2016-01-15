@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExceptionLogFailedDialogMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} - Exception Message</comment>
+  </data>
+  <data name="ExceptionLogFailedDialogTitle" xml:space="preserve">
+    <value>Write Log Error</value>
+  </data>
+  <data name="ExceptionLogSuccessDialogMessage" xml:space="preserve">
+    <value>The log file '{0} has been written</value>
+    <comment>{0} - Log File Path</comment>
+  </data>
+  <data name="ExceptionLogSuccessDialogTitle" xml:space="preserve">
+    <value>Log Exported Sucessfully</value>
+  </data>
+  <data name="ExportDialogFilter" xml:space="preserve">
+    <value>eXtensible Markup Language File (*.xml)|*.xml|Plain Text File (*.txt)|*.txt|InSimSniffer Data File (*.sniffer)|*.sniffer</value>
+  </data>
+  <data name="ExportDialogTitle" xml:space="preserve">
+    <value>Export Packets</value>
+  </data>
+  <data name="ExportErrorDialogMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} - Exception Message</comment>
+  </data>
+  <data name="ExportErrorDialogTitle" xml:space="preserve">
+    <value>Export Error</value>
+  </data>
+  <data name="ExportExtensionNotSupportedMessage" xml:space="preserve">
+    <value>The extension {0} is not supported</value>
+    <comment>{0} - File Extension</comment>
+  </data>
+  <data name="ExportSuccessDialogMessage" xml:space="preserve">
+    <value>The export file '{0}' has been written</value>
+    <comment>{0} - Export File Path</comment>
+  </data>
+  <data name="ExportSuccessDialogTitle" xml:space="preserve">
+    <value>Export Successfully Completed</value>
+  </data>
+  <data name="InSimDisconnectedStatusMessage" xml:space="preserve">
+    <value>InSim connection closed</value>
+  </data>
+  <data name="InSimInitializedStatusMessage" xml:space="preserve">
+    <value>Connected to LFS!</value>
+  </data>
+  <data name="InSimInitializeFailedDialogMessage" xml:space="preserve">
+    <value>Make sure LFS is running and configured to accept connections at address {0}:{1}</value>
+    <comment>{0} - HostAddress, {1} - InSim Port</comment>
+  </data>
+  <data name="InSimInitializeFailedDialogTitle" xml:space="preserve">
+    <value>InSim Connection Failed</value>
+  </data>
+  <data name="InSimInitializeFailedStatusMessage" xml:space="preserve">
+    <value>InSim connection failed</value>
+  </data>
+  <data name="InSimInitializingStatusMessage" xml:space="preserve">
+    <value>Attempting to connect...</value>
+  </data>
+  <data name="InSimLostNotifyMessage" xml:space="preserve">
+    <value>Lost connection to InSim</value>
+  </data>
+  <data name="InSimLostStatusMessage" xml:space="preserve">
+    <value>Lost connection to InSim</value>
+  </data>
+  <data name="LaunchLfsFailedDialogMessage" xml:space="preserve">
+    <value>Make sure the location of LFS.exe is correctly set in the options</value>
+  </data>
+  <data name="LaunchLfsFailedDialogTitle" xml:space="preserve">
+    <value>Launch LFS Failed</value>
+  </data>
+  <data name="MainFormTitleConnected" xml:space="preserve">
+    <value>{0} [Connected]</value>
+    <comment>{0} - Program Name</comment>
+  </data>
+  <data name="MainFormTitleHostName" xml:space="preserve">
+    <value>{0} [Connected] - [{1}]</value>
+    <comment>{0} - Program Name, {1} - Host Name</comment>
+  </data>
+  <data name="MainFormTitlePaused" xml:space="preserve">
+    <value>{0} [Paused]</value>
+    <comment>{0} - Program Name</comment>
+  </data>
+  <data name="MinimizedToTrayNotifyMessage" xml:space="preserve">
+    <value>{0} is hidden, but still running in the background</value>
+  </data>
+  <data name="OptionsLfsExeBrowseDialogFilter" xml:space="preserve">
+    <value>Live for Speed Executable File (LFS.exe)|LFS.exe</value>
+  </data>
+  <data name="OptionsLfsExeBrowseDialogTitle" xml:space="preserve">
+    <value>Locate LFS.exe</value>
+  </data>
+  <data name="RequestFailedDialogMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} - Exception Message</comment>
+  </data>
+  <data name="RequestFailedDialogTitle" xml:space="preserve">
+    <value>Request {0} Failed</value>
+    <comment>{0} - Request Type</comment>
+  </data>
+  <data name="RequestSmallDialogCaption" xml:space="preserve">
+    <value>Enter a UVal:</value>
+  </data>
+  <data name="RequestSmallDialogTitle" xml:space="preserve">
+    <value>Request {0}</value>
+    <comment>{0} - Small Type</comment>
+  </data>
+  <data name="InSimErrorDialogMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} - Exception Message</comment>
+  </data>
+  <data name="InSimErrorDialogTitle" xml:space="preserve">
+    <value>InSim Error</value>
+  </data>
+  <data name="LaunchLfsFailedDialogErrorMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} - Exception Message</comment>
+  </data>
+  <data name="StartupCriticalErrorDialogMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} - Exception Stacktrace</comment>
+  </data>
+  <data name="StartupCriticalErrorDialogTitle" xml:space="preserve">
+    <value>Critical Error!</value>
+  </data>
+  <data name="InSimPausedStatusMessage" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="InSimUnpausedStatusMessage" xml:space="preserve">
+    <value>Unpaused</value>
+  </data>
+  <data name="ExportFileName" xml:space="preserve">
+    <value>InSimSniffer Export {0}</value>
+    <comment>{0} - DateTime</comment>
+  </data>
+  <data name="AboutDialogTitle" xml:space="preserve">
+    <value>About {0}</value>
+    <comment>{0} - Program Name</comment>
+  </data>
+  <data name="AboutDialogVersion" xml:space="preserve">
+    <value>Version {0}</value>
+    <comment>{0} - Version Number</comment>
+  </data>
+  <data name="AboutFishDanceExceptionMessage" xml:space="preserve">
+    <value>Pining for the fjords!?</value>
+  </data>
+  <data name="LaunchLfsAutoConnectFailedDialogMessage" xml:space="preserve">
+    <value>Auto-connect failed as cannot determin if LFS has started. This is probably because LFS is set to Run as Adminstrator. Would you like to connect to LFS now?</value>
+  </data>
+  <data name="LaunchLfsAutoConnectFailedDialogTitle" xml:space="preserve">
+    <value>Auto-Connect Failed</value>
+  </data>
+  <data name="FilterDefaultString" xml:space="preserve">
+    <value>&lt;Filter Packets&gt;</value>
+  </data>
+  <data name="UpdateAvailableDialogMessage" xml:space="preserve">
+    <value>A new version ({0}) is available, do you want to go to the download page?</value>
+    <comment>{0} - Update Version</comment>
+  </data>
+  <data name="UpdateAvailableDialogTitle" xml:space="preserve">
+    <value>Update Available</value>
+  </data>
+  <data name="UpdateErrorDialogMessage" xml:space="preserve">
+    <value>Error: {0}</value>
+    <comment>{0} - Exception Message</comment>
+  </data>
+  <data name="UpdateErrorDialogTitle" xml:space="preserve">
+    <value>Update Error</value>
+  </data>
+  <data name="UpdateNotAvailableDialogMessage" xml:space="preserve">
+    <value>There are no updates at this time</value>
+  </data>
+  <data name="UpdateNotAvailableDialogTitle" xml:space="preserve">
+    <value>No Update Available</value>
+  </data>
+  <data name="UpdateInfoDownloadErrorMessage" xml:space="preserve">
+    <value>Invalid data received on version check</value>
+  </data>
+  <data name="ExceptionDialogCultureText" xml:space="preserve">
+    <value>Culture: {0}{1}</value>
+    <comment>{0} - Culture, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogDateText" xml:space="preserve">
+    <value>Date: {0}{1}</value>
+    <comment>{0} - Date, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogExceptionText" xml:space="preserve">
+    <value>Exception: {0}{1}</value>
+    <comment>{0} - Exception, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogInnerExceptionText" xml:space="preserve">
+    <value>Inner Exception: {0}{1}</value>
+    <comment>{0} - Inner Exception, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogMessageText" xml:space="preserve">
+    <value>Message: {0}{1}</value>
+    <comment>{0} - Exception Message, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogOSText" xml:space="preserve">
+    <value>OS: {0}{1}</value>
+    <comment>{0} - OS Version, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogSourceText" xml:space="preserve">
+    <value>Source: {0}{1}</value>
+    <comment>{0} - Source, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogStackTraceText" xml:space="preserve">
+    <value>Stack Trace: {0}{1}</value>
+    <comment>{0} - StackTrace, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogTargetText" xml:space="preserve">
+    <value>Target: {0}{1}</value>
+    <comment>{0} - Target, {1} - Newline</comment>
+  </data>
+  <data name="ExceptionDialogVersionText" xml:space="preserve">
+    <value>Version: {0}{1}</value>
+    <comment>{0} - Version, {1} - Newline</comment>
+  </data>
+  <data name="ImportDialogFilter" xml:space="preserve">
+    <value>InSimSniffer Data File (*.sniffer)|*.sniffer</value>
+  </data>
+  <data name="ImportDialogTitle" xml:space="preserve">
+    <value>Import Packets</value>
+  </data>
+  <data name="ImportErrorDialogMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>{0} - Exception Message</comment>
+  </data>
+  <data name="ImportErrorDialogTitle" xml:space="preserve">
+    <value>Import Error</value>
+  </data>
+  <data name="ImportInvalidHeaderErrorMessage" xml:space="preserve">
+    <value>Invalid header in import file '{0}'</value>
+    <comment>{0} - File Path</comment>
+  </data>
+  <data name="ImportInvalidVersionErrorMessage" xml:space="preserve">
+    <value>Invalid version in import file '{0}'</value>
+    <comment>{0} - File Path</comment>
+  </data>
+  <data name="ImportSuccessStatusMessage" xml:space="preserve">
+    <value>Imported {0} packet(s)</value>
+    <comment>{0} - Packet Count</comment>
+  </data>
+</root>

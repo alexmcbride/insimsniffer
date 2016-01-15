@@ -1,0 +1,80 @@
+- 1.3.1 
+
+  + Added ability to combine filter terms by seperating them with spaces (e.g. 'mso sta lap' will show you all IS_MSO, IS_STA, and IS_LAP packets).
+  * Fixed bug in IS_PFL where Size, Type and ReqI weren't being set.
+
+- 1.3.0
+
+  + Added support for exporting and importing packets, using new .sniffer file format
+  + Improved general packet performance
+  + Improved packet filter (better UI and vastly optimized performance)
+  + Can now sort list view controls (packets and details)
+  + Added Help > Check for Updates menu item, to check if a more recent version of the program is available
+  + Many small tweaks and fixes
+
+- 1.2.9
+
+  + Added /connect and /minimize command line arguments
+  + Added placeholder text to filter textbox
+  + Added Check for Updates item to helpl menu, that checks if a new version is available
+
+- 1.2.8
+
+  + Updated for LFS 0.6B
+
+- 1.2.7
+
+  + Updated for LFS Z32
+  * Fixed bug with open config tracks showing error
+
+- 1.2.6
+
+  + Added InSim 5 support for LFS Z30
+  * Fixed bug where internal player list not updated when starting single-player replay.
+
+- 1.2.5
+
+  * Optimized string encoding
+  + Added new text-based filter
+
+- 1.2.4
+
+  + String encoding now supports double-byte charsets (e.g. shift-jis, trad chinese etc..)
+  + Can now restore from notification tray by left-clicking notify icon and balloon tooltip
+  * Fixed bug with disconnecting from InSim while sniffer is paused
+
+- 1.2.3
+
+  * Improvements to menus and to the way dialogs are shown.
+
+- 1.2.2
+
+  * Elapsed time now uses high performance timer.
+
+- 1.2.1 
+
+  * Fixed error when launching LFS when LFS is set to Run as Adminstrator
+  * Fixed crash when sniffing IS_RIP packets
+
+- 1.2.0
+
+  = Initial release of 1.2
+
+- 1.1.3
+
+  * Fixed bug causing crash when LFS could not be found in registry.
+  * Improved support for using InSimSniffer in x64 versions of Windows.
+
+- 1.1.2
+
+  + File > Export now exports filtered packet list.
+
+- 1.1.1
+
+  + Now detects location of LFS installation automatically.
+  + Support for .NET 4.0
+
+- 1.1.0
+
+  + Better performance!
+  + Improved configuration file for Vista and Windows 7[/code]
