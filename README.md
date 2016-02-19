@@ -1,4 +1,4 @@
-# insimsniffer
+# InSimSniffer
 
 InSimSniffer is a InSim packet sniffer for the racing simulator Live for Speed.
 
